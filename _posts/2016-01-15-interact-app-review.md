@@ -17,7 +17,7 @@ tag: instapaper
 
 Drafts의 팬이기 때문에 사전앱인 [Terminology](https://itunes.apple.com/kr/app/terminology-3-extensible-dictionary/id687798859?mt=8&uo=4&at=10lus3) (USD 3.29) 와 [Tally](https://itunes.apple.com/kr/app/tally-2-quick-counter/id957912407?mt=8&uo=4&at=10lus3) (무료) 도 구입했습니다. 모두 추천합니다. 특히 영문을 자주 읽는 분이라면 Terminology를 한번 써 보시면 좋습니다. Instapaper 앱 내에서도 기본 사전으로 설정할 수 있습니다. 그리고 새로 나온 [Interact](https://itunes.apple.com/kr/app/interact-do-more-your-contacts!/id1045605097?mt=8&uo=4&at=10lus3) (USD 5.49) 도 구입했습니다. 습관처럼…
 
-!["구입목록"](https://farm2.staticflickr.com/1477/24362602096_e0e07ce9fa_o.jpg)
+!["구입목록"](https://farm2.staticflickr.com/1477/24362602096_e0e07ce9fa_o.jpg "구입목록")
 
 
 ## iOS 연락처 관리앱은 못 쓰겠다면… Interact
