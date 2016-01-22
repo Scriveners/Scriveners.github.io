@@ -9,17 +9,9 @@ disqus_shortname: # disqus_shortname for disqus comment system
 
 
 # my setting
-markdown: redcarpet:
-    extensions: 
-      - no_intra_emphasis
-      - fenced_code_blocks
-      - tables
-      - strikethrough
-      - superscript
-      - autolink
-      - hard_wrap
-      - footnotes
-
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 
 
 # Content for about page.
