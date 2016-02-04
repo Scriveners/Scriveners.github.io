@@ -1,6 +1,6 @@
 ---
 layout: post
-category: linked
+category: blog
 date: 2016-02-04 23:24:20
 title: 가장 힘센 관점에 도전하는 것이 저널리즘이다
 subhead: 
