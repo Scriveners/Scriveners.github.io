@@ -3,7 +3,6 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink: none
 
 # Markdown specs
 markdown: kramdown
@@ -18,11 +17,11 @@ kramdown:
   enable_coderay: false
 
 # Setup
-title:               Ed.
-tagline:             'A Jekyll theme for minimal editions'
+title:               scriveners
+tagline:             'But always meeing ourselves.'
 description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 https://github.com/elotroalex/ed
-baseurl:             '/ed'
+url:                 scriveners.github.io
+baseurl:             
 
 # About/contact
 author:
