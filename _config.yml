@@ -16,9 +16,18 @@ permalink:          /notes/:title # Post permalink
 timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Site Build
+
 markdown:           kramdown
 kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
     input:          GFM
+
+highlighter: rouge
 sass:
     style:          :compressed
 
