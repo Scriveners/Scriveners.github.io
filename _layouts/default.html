@@ -10,14 +10,15 @@ layout: compress
 	</head>
 
 	<body>
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script type="text/javascript" src="/assets/js/com.alybadawy.external_links.js"></script>
-		
+			
 
 		{% include header.html %}
 
 		<main>
 			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="assets/js/com.alybadawy.external_links.js"></script>
+
 		</main>
 
 		{% if page.path contains '_posts' %}
