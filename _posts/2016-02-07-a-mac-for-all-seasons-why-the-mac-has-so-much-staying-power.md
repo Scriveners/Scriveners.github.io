@@ -1,6 +1,6 @@
 ---
-layout: post
 category: blog
+layout: post
 title: A Mac for all seasons
 tags: linked, mac, article
 link: http://www.macworld.com/article/3030423/macs/a-mac-for-all-seasons-why-the-mac-has-so-much-staying-power.html
