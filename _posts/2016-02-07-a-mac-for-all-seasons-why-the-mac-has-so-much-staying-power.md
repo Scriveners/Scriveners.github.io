@@ -3,7 +3,6 @@ layout: post
 category: blog
 title: "A Mac for all seasons: Why the Mac has so much staying power➦"
 tags: linked, mac, article
-link: http://www.macworld.com/article/3030423/macs/a-mac-for-all-seasons-why-the-mac-has-so-much-staying-power.html
 ---  
 
 [Macworld에 실린 Dan Moren의 글](http://www.macworld.com/article/3030423/macs/a-mac-for-all-seasons-why-the-mac-has-so-much-staying-power.html)이다.
