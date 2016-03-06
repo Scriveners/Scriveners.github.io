@@ -18,6 +18,7 @@ timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz
 # Site Build
 
 markdown:           kramdown
+
 kramdown:
   auto_ids:       true
   footnote_nr:    1
