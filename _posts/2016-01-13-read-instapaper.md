@@ -11,7 +11,7 @@ tag: instapaper
 
 # "읽다"… Instapaper
 
- 생각해보면, 스마트폰이나 PC를 쓸 때 하는 일은 몇가지 없습니다. 무언가를 읽고, 누군가에게 전달하는 일이 대부분이지요. 비슷한 연구 결과도 있습니다.[^pew research center] 보통 쓰는 "인터넷을 한다"는 말은 Web에 있는 특정 문서를 읽고 있다는 행위를 전제로 한다고 보아도 무방할 겁니다. Web은 가장 접근성이 뛰어나고 방대하며 편리한 정보 수집 도구입니다.
+ 생각해보면, 스마트폰이나 PC를 쓸 때 하는 일은 몇가지 없습니다. 무언가를 읽고, 누군가에게 전달하는 일이 대부분이지요. 비슷한 연구 결과도 있습니다.[^1] 보통 쓰는 "인터넷을 한다"는 말은 Web에 있는 특정 문서를 읽고 있다는 행위를 전제로 한다고 보아도 무방할 겁니다. Web은 가장 접근성이 뛰어나고 방대하며 편리한 정보 수집 도구입니다.
 
 ## instapaper '가독성'
 
@@ -68,7 +68,7 @@ Macstories의 [Viticci가 쓴 글](https://www.macstories.net/ios/instapaper-lau
 
 ### 아쉬운 유료 구독.
 
-월 2.99$의 유료 구독의 핵심 기능은 아쉽지만 무제한 노트와 하이라이팅은 아닙니다. 바로 **Full-Text-search 기능**입니다. 웹페이지를 모두 아카이브 해 놨다가 검색해줍니다. [pinboard](https://pinboard.in/upgrade/)에도 추가 비용을 내면 같은 기능을 제공합니다.[^핀보드 아카이브] 기사를 많이 보는 저널리스트 등에게는 매우 유용한 기능이 아닐 수 없습니다.  instapaper의 개발자들도 프리미엄 계정을 소개하는 [웹 페이지](https://www.instapaper.com/premium) 에도 단연 첫 째 기능으로 꼽고 있습니다.
+월 2.99$의 유료 구독의 핵심 기능은 아쉽지만 무제한 노트와 하이라이팅은 아닙니다. 바로 **Full-Text-search 기능**입니다. 웹페이지를 모두 아카이브 해 놨다가 검색해줍니다. [pinboard](https://pinboard.in/upgrade/)에도 추가 비용을 내면 같은 기능을 제공합니다.[^2] 기사를 많이 보는 저널리스트 등에게는 매우 유용한 기능이 아닐 수 없습니다.  instapaper의 개발자들도 프리미엄 계정을 소개하는 [웹 페이지](https://www.instapaper.com/premium) 에도 단연 첫 째 기능으로 꼽고 있습니다.
 
 하지만 아쉽게 한국 사용자들에겐 무용지물입니다. 영어 외의 다른 언어는 전혀 검색할 수 없습니다. 기술적으로 어려운 일인지는 잘 모르겠습니다. 개발자도 문제점을 알고 있긴한데 추가할 의지는 없어 보입니다. 개발진에 문의했을 때 받은 답변입니다.
 
@@ -82,6 +82,6 @@ Macstories의 [Viticci가 쓴 글](https://www.macstories.net/ios/instapaper-lau
 
 -------------    
 
-[^pew research center]: Pew Research center [U.S. Smartphone Use in 2015](http://www.pewinternet.org/2015/04/01/us-smartphone-use-in-2015/)   
+[^1]: Pew Research center [U.S. Smartphone Use in 2015](http://www.pewinternet.org/2015/04/01/us-smartphone-use-in-2015/)   
 
-[^핀보드 아카이브]: [Pinboard](https://pinboard.in/upgrade/) 에도 비슷한 기능이 있다. 다만, 기본 유료 계정외에 연간 추가 비용을 내야한다.
+[^2]: [Pinboard](https://pinboard.in/upgrade/) 에도 비슷한 기능이 있다. 다만, 기본 유료 계정외에 연간 추가 비용을 내야한다.
