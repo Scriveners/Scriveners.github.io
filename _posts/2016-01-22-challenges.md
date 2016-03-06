@@ -2,7 +2,7 @@
 category: blog
 layout: post
 author: telemachus
-title: 변화에 대응하는 자세
+title: ➦ 변화에 대응하는 자세
 tags: journalism instapaper
 tag: instapaper
 --- 
