@@ -11,7 +11,7 @@ tag: instapaper
 
 # "읽다"… Instapaper
 
- 생각해보면, 스마트폰이나 PC를 쓸 때 하는 일은 몇가지 없습니다. 무언가를 읽고, 누군가에게 전달하는 일이 대부분이지요. 비슷한 연구 결과도 있습니다.[^1] 보통 쓰는 "인터넷을 한다"는 말은 Web에 있는 특정 문서를 읽고 있다는 행위를 전제로 한다고 보아도 무방할 겁니다. Web은 가장 접근성이 뛰어나고 방대하며 편리한 정보 수집 도구입니다.[^footnote]
+ 생각해보면, 스마트폰이나 PC를 쓸 때 하는 일은 몇가지 없습니다. 무언가를 읽고, 누군가에게 전달하는 일이 대부분이지요. 비슷한 연구 결과도 있습니다.[^1] 보통 쓰는 "인터넷을 한다"는 말은 Web에 있는 특정 문서를 읽고 있다는 행위를 전제로 한다고 보아도 무방할 겁니다. Web은 가장 접근성이 뛰어나고 방대하며 편리한 정보 수집 도구입니다.
 
 ## instapaper '가독성'
 
@@ -47,7 +47,7 @@ instapaper는 무료로 쓰기에도 아무런 지장이 없습니다. 전엔 iO
 
 ### 의외로 유용한 note 기능
 
-종이 문서도 연필을 들고 읽는 습관이 있어서, 개인적으로 유료 결제는 불가피합니다. 딱히 습관 때문이 아니라고 해도 결제해서 쓸만한 유용함은 분명합니다. 밑줄과 노트는 모두 instapaper 계정에 저장됩니다. IFTTT를 통해서 다양한 경로로 백업을 하거나 원한다면 트위터 등으로 포스팅을 할 수 있습니다. 밑줄을 긋고, 주석을 다는 과정을 instapaper 안에서 모두 처리할 수 있기 때문에 '읽는 흐름'에 방해받지 않습니다.
+종이 문서도 연필을 들고 읽는 습관이 있어서, 개인적으로 유료 결제는 불가피합니다. 딱히 습관 때문이 아니라고 해도 결제해서 쓸만한 유용함은 분명합니다. 밑줄과 노트는 모두 instapaper 계정에 저장됩니다. IFTTT를 통해서 다양한 경로로 백업을 하거나, 원한다면 트위터 등으로 포스팅을 할 수 있습니다. 밑줄을 긋고, 주석을 다는 과정을 instapaper 안에서 모두 처리할 수 있기 때문에 '읽는 흐름'에 방해받지 않습니다.
 
 [✍ instapaper highlight to evernote Recipe(append)](https://ifttt.com/recipes/182874-append-instapaper-highlights-to-evernote)    
 [✍ instapaper comment to evernote Recipe](https://ifttt.com/recipes/297123-append-instapaper-comments-to-a-note-on-evernote)    
@@ -68,7 +68,7 @@ Macstories의 [Viticci가 쓴 글](https://www.macstories.net/ios/instapaper-lau
 
 ### 아쉬운 유료 구독.
 
-월 2.99$의 유료 구독의 핵심 기능은 아쉽지만 무제한 노트와 하이라이팅은 아닙니다. 바로 **Full-Text-search 기능**입니다. 웹페이지를 모두 아카이브 해 놨다가 검색해줍니다. [pinboard](https://pinboard.in/upgrade/)에도 추가 비용을 내면 같은 기능을 제공합니다.[^2] 기사를 많이 보는 저널리스트 등에게는 매우 유용한 기능이 아닐 수 없습니다.  instapaper의 개발자들도 프리미엄 계정을 소개하는 [웹 페이지](https://www.instapaper.com/premium) 에도 단연 첫 째 기능으로 꼽고 있습니다.
+월 2.99$의 유료 구독의 핵심 기능은 아쉽지만 무제한 노트와 하이라이팅이 아닙니다. 바로 **Full-Text-search 기능**입니다. 웹페이지를 모두 아카이브 해 검색이 가능합니다. [pinboard](https://pinboard.in/upgrade/)에도 추가 비용을 내면 같은 기능을 제공합니다.[^2] 기사를 많이 보는 저널리스트 등에게는 매우 유용한 기능이 아닐 수 없습니다.  instapaper의 개발자들도 프리미엄 계정을 소개하는 [웹 페이지](https://www.instapaper.com/premium) 에서 단연 첫 째 기능으로 꼽고 있습니다.
 
 하지만 아쉽게 한국 사용자들에겐 무용지물입니다. 영어 외의 다른 언어는 전혀 검색할 수 없습니다. 기술적으로 어려운 일인지는 잘 모르겠습니다. 개발자도 문제점을 알고 있긴한데 추가할 의지는 없어 보입니다. 개발진에 문의했을 때 받은 답변입니다.
 
@@ -78,7 +78,7 @@ Macstories의 [Viticci가 쓴 글](https://www.macstories.net/ios/instapaper-lau
 
 > *Not quite yet. We're a team of three (one dev, one designer, and me for communications), and we simply didn't have the time to get to search yet, but we're hoping to in 2016. Sorry for any disappointment.*
 
-어쩐지 짠한 답변입니다만… instapaper는 수익의 많은 부분은 아니겠지만 분명 국제적인 서비스를 하고 있습니다. 영어권 이외의 이용자는 핵심 기능을 제한받으면서 같은 비용을 내야하는 상황입니다. 개선 여부는 불투명하고요. 아마도 이용자에게 월별 과금을 해야하는 '비용'의 대부분은 archiving 때문일 겁니다. 아쉽습니다.
+어쩐지 짠한 답변입니다만… 수익의 많은 부분은 아니라해도 instapaper는 분명 국제적인 서비스를 하고 있습니다. 영어권 이외의 이용자는 같은 비용을 지불하고도 핵심 기능은 쓸 수 없는 상황입니다. 개선 여부도 불투명하고요. 아마도 이용자에게 월별 과금을 해야하는 이유의 대부분은 archiving 때문일 겁니다. 아쉽습니다.
 
 -------------    
 
