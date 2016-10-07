@@ -4,7 +4,6 @@ layout: post
 author: telemachus
 title: 읽다... Instapaper
 tags: instapaper review
-tag: instapaper
 --- 
 
 
