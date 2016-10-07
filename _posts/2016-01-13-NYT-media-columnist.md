@@ -3,8 +3,7 @@ category: blog
 layout: post
 author: telemachus
 title: ➦ New York Times의 새 미디어 칼럼리스트
-tags: articles
-tag: instapaper
+tags: articles, journalism
 --- 
 
 
