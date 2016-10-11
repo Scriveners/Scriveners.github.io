@@ -2,7 +2,7 @@
 category: blog
 layout: post
 author: telemachus
-title: 🎶[recording] 樹氷の輝き
+title: 🎶 樹氷の輝き(covered)
 tags: recording acoustic guitar music  
 --- 
 
