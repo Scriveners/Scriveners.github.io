@@ -1,12 +1,12 @@
 --- 
 category: tips
-title: Scrivener for iOS 에서 폰트 설치하기
+title: [Tips] Scrivener for iOS 에서 폰트 설치하기
 author: Telemachus
 layout: 
 tags: tips, scrivener
 --- 
 
-# [Tips] Scrivener for iOS에서 폰트 설정하기
+# Scrivener for iOS에서 폰트 설정하기
 
 [Scrivener](https://itunes.apple.com/kr/app/scrivener/id418889511?mt=12&uo=4&at=10lus3) (USD 49.49)는 공인된 최고의 글쓰기 앱이다. 최근엔 [ios 버전](https://itunes.apple.com/kr/app/scrivener/id972387337?mt=8&uo=4&at=10lus3) (USD 21.99)이 출시되어 더 완벽한 글쓰기 환경을 제공하고 있다.[^ios 버전]  여러 훌륭한 기능이 있지만, 한글 사용자로서 글꼴을 직접 설치해 쓸 수 있다는 점이 매우 마음에 든다. 한글 폰트를 적용하는 방법을 간단하게 소개한다. (검색하면 나오지만 스스로 삽질(?)한 이력들은 이제 간단하게라도 적어두기로 했다.)
 
