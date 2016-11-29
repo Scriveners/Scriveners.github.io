@@ -1,8 +1,8 @@
 --- 
 category: tips
-title: [Tips] Scrivener for iOS 에서 폰트 설치하기
+title: Scrivener for iOS 에서 폰트 설치하기
 author: Telemachus
-layout: 
+layout: post
 tags: tips, scrivener
 --- 
 
