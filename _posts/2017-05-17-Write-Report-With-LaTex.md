@@ -12,11 +12,11 @@ tags: markdown LaTex
 
 거의 모든 글을 markdown 형식으로 씁니다. PlainText의 유연함을 최대한 활용하면서도 다양한 형식으로 최종 사용처를 정할 수 있기 때문입니다. 토막글은 어느 에디터에서든 plaintex로 쓰고 Dropbox에 저장합니다. 이후 글을 보낼 곳이 있다면 [Scrivener](https://www.literatureandlatte.com/scrivener.php) 에서 다듬고, [Marked2](http://marked2app.com) 에서 적당한 탬플릿을 골라서 HTML이나 PDF 로 내보냅니다. 흐름이 자연스럽고 결과물은 유려합니다.
 
-다만 마크다운이 웹을 전제로 하기 때문에 특정 문서 형식, 특히 **보고서**나 조금 더 형식적인 **문건** 을 만들 때는 불가피하게 워드 프로세서를 꺼내야합니다. Scrivener는 다행히 다양한 compile 옵션이 있습니다만, 역시 번거롭습니다. 그래서 생각한 것이 LaTex입니다.
+다만 마크다운이 웹을 전제로 하기 때문에 특정 문서 형식, 특히 **보고서**나 조금 더 형식적인 **문건** 을 만들 때는 불가피하게 워드 프로세서를 꺼내야합니다. Scrivener는 다행히 다양한 compile 옵션[^1]이 있습니다만, 역시 번거롭습니다. 그래서 생각한 것이 LaTex입니다.
 
 LaTex는 보통 논문 작성에 많이 사용합니다. 자세한 내용은 저도 잘 몰라서 설명하기 어렵습니다만, Markdown과 마찬가지의 마크업 언어라고 이해할 수 있었습니다. 물론 훨씬 더 오래됐고, 복잡합니다. 과거엔 한글 사용 환경을 만들기 위해 어려운 설치 과정이 있어야 했습니다. 저도 몇번 시도하다가 포기했던 기억이 있습니다. 최근엔 여러 분들의 수고에 힘입어 매우 간단해졌다고 합니다… 만 역시 진입 장벽이 높은 편입니다. 하지만 최근 [Overleaf](http://overleaf.com) 나 [shareLatex](http://sharelatex.com) 같은 온라인 서비스가 등장하면서 문턱이 많이 낮아졌습니다.
 
-Overleaf라는 서비스를 둘러보다가 Markdown 문서를 간단한 보고서로 보고자 했습니다. 
+Overleaf라는 서비스를 둘러보다가 Markdown 문서를 간단한 보고서로 만들어 보고자 했습니다. 
 우선, 저는 Latex를 **전혀** 모르며, 이 글도 그 기준에 맞춰서 썼다는 점을 미리 밝힙니다.
 
 ## 준비물
@@ -61,7 +61,7 @@ Markdown을 HTML로 변환할 때 특정 CSS를 이용하는 것과 똑같습니
 
 `\usepackage[inlineFootnotes,definitionLists,hashEnumerators,smartEllipses,hybrid]{markdown}`  
 
-어떤 옵션들인지 대충 감이 옵니다. `hybrid` 옵션은 마크다운 문서내에서 Latex 문법도 함께 사용할 수 있도록 하는 옵션입니다. markdown에서도 최종 출력물을 뽑을 때 종종 HTML 태그를 쓰니까 일단 포함시켜 놓았습니다.  아래 링크를 보시면 자세한 설명이 나와 있습니다.[^1]
+어떤 옵션들인지 대충 감이 옵니다. `hybrid` 옵션은 마크다운 문서내에서 Latex 문법도 함께 사용할 수 있도록 하는 옵션입니다. markdown에서도 최종 출력물을 뽑을 때 종종 HTML 태그를 쓰니까 일단 포함시켜 놓았습니다.  아래 링크를 보시면 자세한 설명이 나와 있습니다.[^2]
 
 
 [✍Overleaf 블로그](https://www.overleaf.com/blog/501-markdown-into-latex-with-style#.WRljF1KB2Rs)
@@ -118,5 +118,5 @@ section은 H1, subsection은 H2 인 듯 합니다. 첫 번째 숫자는 들여�
 
 
 
-
-[^1]: 옵션을 쓰기 위해서는 해당 문서 폴더내에 몇몇 파일을 복사해 넣어야합니다.(링크된 블로그 참조) 다만 각주 기능은 제대로 작동하지 않았습니다. 
+[^1]: Scrivener에는 markdown문서를 LaTex 문서로 컴파일 하는 옵션도 있습니다
+[^2]: 옵션을 쓰기 위해서는 해당 문서 폴더내에 몇몇 파일을 복사해 넣어야합니다.(링크된 블로그 참조) 다만 각주 기능은 제대로 작동하지 않았습니다. 
