@@ -42,24 +42,24 @@ Markdown을 HTML로 변환할 때 특정 CSS를 이용하는 것과 똑같습니
 ## Markdown 환경 설정 및 틀 잡기
 이제 MD문서를 Latex가 이해할 수 있도록 환경을 설정해 주어야합니다. Latex에서는 preamble이라고 문서의 서두에 이런 저런 환경을 설정합니다. 기본 설정은 아래와 같습니다. 
 
-`%\title{Overleaf Memo Template}`
-`% Using the texMemo package by Rob Oakes`
-`\documentclass[a4paper,11pt]{texMemo}`
-`\usepackage[english]{babel}`
+`%\title{Overleaf Memo Template}`  
+`% Using the texMemo package by Rob Oakes`  
+`\documentclass[a4paper,11pt]{texMemo}`  
+`\usepackage[english]{babel}`  
 
 템플릿에 대한 설명이 있고, 문서 형식을 규정해 놓았습니다. 글자 크기를 11로 하는 texMemo라는 문서 형식이군요. 좋습니다.  
 
 이제 한글을 쓸 수 있도록…
 
-`\usepackage{kotex}`
+`\usepackage{kotex}`  
 
 를 추가하고, 마크다운 문법을 사용할 수 있도록  
 
-`\usepackage{markdown}`
+`\usepackage{markdown}`  
 
 패키지를 추가합니다. 이때 각주 등을 사용하려면 마크다운 패키지에 옵션을 주어야합니다. 
 
-`\usepackage[inlineFootnotes,definitionLists,hashEnumerators,smartEllipses,hybrid]{markdown}`
+`\usepackage[inlineFootnotes,definitionLists,hashEnumerators,smartEllipses,hybrid]{markdown}`  
 
 어떤 옵션들인지 대충 감이 옵니다. `hybrid` 옵션은 마크다운 문서내에서 Latex 문법도 함께 사용할 수 있도록 하는 옵션입니다. markdown에서도 최종 출력물을 뽑을 때 종종 HTML 태그를 쓰니까 일단 포함시켜 놓았습니다.  아래 링크를 보시면 자세한 설명이 나와 있습니다.[^각주]
 
@@ -68,14 +68,14 @@ Markdown을 HTML로 변환할 때 특정 CSS를 이용하는 것과 똑같습니
 
 저는 여기에 몇몇을 추가했습니다. 기본 세팅으로 PDF를 출력했더니 헤더에 숫자 형식의 머릿말이 붙습니다. H1은 1, H2는 1.1, 1.2. H3는 1.2.3 이렇게 됩니다.  글의 구조가 복잡한 논문이라면 모를까 거추장스럽습니다. 검색해보니 당연하게도 옵션이 있습니다. 
 
-`\usepackage[compact]{titlesec}`
-`\setcounter{secnumdepth}{-4}`
+`\usepackage[compact]{titlesec}`  
+`\setcounter{secnumdepth}{-4}`  
 
 H4까지는 숫자를 넣지 말라는 옵션입니다. 이제 거의 다 왔습니다. 문단이나 장, 절 별로 간격을 주고 싶었습니다.  또 검색합니다. 
 
-`\titlespacing{\section}{0pt}{8pt}{16pt}`
-`\titlespacing{\subsection}{3pt}{12pt}{0pt}`
-`\titlespacing{\subsubsection}{18pt}{8pt}{0pt}`
+`\titlespacing{\section}{0pt}{8pt}{16pt}`  
+`\titlespacing{\subsection}{3pt}{12pt}{0pt}`  
+`\titlespacing{\subsubsection}{18pt}{8pt}{0pt}`  
 
 section은 H1, subsection은 H2 인 듯 합니다. 첫 번째 숫자는 들여쓰기, 두 번째 숫자는 윗 문단과 간격, 세 번째는 아랫 문단과 간격인 듯 합니다. 적당히 조절합니다. 
 
@@ -83,11 +83,11 @@ section은 H1, subsection은 H2 인 듯 합니다. 첫 번째 숫자는 들여�
 ## Latex 문서 작성-출력하기
 이제 문서의 틀은 잡았습니다. 이제 Latex 문서를 작성하고 출력하면 됩니다. 방법은 두 가지가 있습니다. 
 
-`\begin{document}`
-`\begin{markdown}`
-`%여기에 내용을 씁니다.`
-`\end{markdown}`
-`\end{document}`
+`\begin{document}`  
+`\begin{markdown}`  
+`%여기에 내용을 씁니다.`  
+`\end{markdown}`  
+`\end{document}`  
 
 마크다운으로 문서를 시작하겠다는 명령을 주고 내용을 적은 뒤 다시 문을 닫아주는 방식입니다. 에디터에서 복사해서 중간에 붙이면 되겠지요. 다른 방법은 *.md 파일을 Overleaf 디렉토리에 업로드 한 뒤 글을 내용을 쓰는 자리에 아래와 같이 명령해 주면 됩니다. 
 
@@ -95,11 +95,11 @@ section은 H1, subsection은 H2 인 듯 합니다. 첫 번째 숫자는 들여�
 
 다 되었습니다. main.tex 파일의 앞 부분에 있는 보내는 이, 받는 이, 제목 등을 입력해 줍니다. 우측 상단에 들어갈 로고도 업로드 해야겠습니다. 청와대 로고를 `blue.jpg`로 업로드했습니다.  overleaf 사이트에서 보이는 최종 화면은 아래와 같습니다. 3분할하여 맨 왼쪽엔 파일 판넬이 있고, 가운데는 에디터, 오른쪽은 결과물인 PDF의 preview가 있습니다.  상단에 있는 `PDF` 메뉴를 누르면 브라우저에서 파일을 다운로드 합니다. 
 
-`# 미세먼지 저감 대책 보고`
-`## 노후 화력 발전소 중단`
-`- 10년 이상 노후 화력 발전소 가동 중단`
-`## 추가 화력 발전소 설치 억제`
-`- 공정률 10\% 이하 발전소 백지화`
+`# 미세먼지 저감 대책 보고`  
+`## 노후 화력 발전소 중단`  
+`- 10년 이상 노후 화력 발전소 가동 중단`  
+`## 추가 화력 발전소 설치 억제`  
+`- 공정률 10\% 이하 발전소 백지화`  
 
 이런 내용을 담아 dust.md로 업로드했습니다. %앞에 붙은 백슬래시가 `%`를 명령이 아닌 문자로 쓰라는 표시입니다. 자, PDF 결과물은 아래와 같습니다. 혹시 몰라서 `이 문서는 \LaTeX 테스트를 위해 작성된 예시 문서입니다. `라고 삽입했습니다. 깔끔합니다. 
 
