@@ -61,7 +61,7 @@ Markdown을 HTML로 변환할 때 특정 CSS를 이용하는 것과 똑같습니
 
 `\usepackage[inlineFootnotes,definitionLists,hashEnumerators,smartEllipses,hybrid]{markdown}`  
 
-어떤 옵션들인지 대충 감이 옵니다. `hybrid` 옵션은 마크다운 문서내에서 Latex 문법도 함께 사용할 수 있도록 하는 옵션입니다. markdown에서도 최종 출력물을 뽑을 때 종종 HTML 태그를 쓰니까 일단 포함시켜 놓았습니다.  아래 링크를 보시면 자세한 설명이 나와 있습니다.[^각주]
+어떤 옵션들인지 대충 감이 옵니다. `hybrid` 옵션은 마크다운 문서내에서 Latex 문법도 함께 사용할 수 있도록 하는 옵션입니다. markdown에서도 최종 출력물을 뽑을 때 종종 HTML 태그를 쓰니까 일단 포함시켜 놓았습니다.  아래 링크를 보시면 자세한 설명이 나와 있습니다.[^1]
 
 
 [✍Overleaf 블로그](https://www.overleaf.com/blog/501-markdown-into-latex-with-style#.WRljF1KB2Rs)
@@ -110,7 +110,6 @@ section은 H1, subsection은 H2 인 듯 합니다. 첫 번째 숫자는 들여�
 간혹 격식을 갖추어 보고할 문서가 있고, HTML 보다는 A4에 출력을 해서 들고 가야할 일이 있습니다. Pages나 Word에서 적당한 양식을 만들어 놓고 사용해도 됩니다. \LaTex도 그런 툴의 하나일 뿐이다. 각각 장점이 있습니다. markdown을 많이 쓰는 분이라면 LaTex가 가진 장점이나 철학을 쉽게 이해할 수 있을 것이라 생각합니다.
 
 ## 참고문서
-- [Markdown vs Latex for Academic Writing | J. Alexander Branham](https://jabranham.com/blog/2015/09/rmarkdown-vs-latex/#)
 - [Using Markdown in LaTeX documents - LaTeX Example on Overleaf](https://www.overleaf.com/latex/examples/using-markdown-in-latex-documents/whdrnpcpnwrm#.WRpUDFKB2Rs)
 - [Markdown into LaTeX with Style - Overleaf Blog](https://www.overleaf.com/blog/501-markdown-into-latex-with-style#.WRpUGVKB2Rs)
 - [How to Write Using Rich Text Format and Markdown in LaTeX and Overleaf - Article Published on Overleaf](https://www.overleaf.com/articles/how-to-write-using-rich-text-format-and-markdown-in-latex-and-overleaf/dbqrxvftzskw#.WRpUIFKB2Rs)
@@ -120,4 +119,4 @@ section은 H1, subsection은 H2 인 듯 합니다. 첫 번째 숫자는 들여�
 
 
 
-[^각주]: 옵션을 쓰기 위해서는 해당 문서 폴더내에 몇몇 파일을 복사해 넣어야합니다.(링크된 블로그 참조) 다만 각주 기능은 제대로 작동하지 않았습니다. 
+[^1]: 옵션을 쓰기 위해서는 해당 문서 폴더내에 몇몇 파일을 복사해 넣어야합니다.(링크된 블로그 참조) 다만 각주 기능은 제대로 작동하지 않았습니다. 
