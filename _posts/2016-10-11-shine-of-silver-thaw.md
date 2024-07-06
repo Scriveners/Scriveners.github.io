@@ -4,6 +4,7 @@ layout: post
 author: telemachus
 title: 🎶 樹氷の輝き(covered)
 tags: recording acoustic guitar music  
+published: false
 --- 
 
 # 樹氷の輝き
